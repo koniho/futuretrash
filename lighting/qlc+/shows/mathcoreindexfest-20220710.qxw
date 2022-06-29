@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.5</Version>
+  <Author>Alexander</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN346807)" Line="0">
+     <PluginParameters UniverseChannels="150"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1">
+    <Input Plugin="MIDI" UID="IAC Driver" Line="0" Profile="Ableton Live IAC"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH BEAMS</Mode>
+   <ID>0</ID>
+   <Name>Left - Beams</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH Whites</Mode>
+   <ID>1</ID>
+   <Name>Left - Whites</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH RGB</Mode>
+   <ID>2</ID>
+   <Name>Left - RGB</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH BEAMS</Mode>
+   <ID>3</ID>
+   <Name>Right - Beams</Name>
+   <Universe>0</Universe>
+   <Address>75</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH Whites</Mode>
+   <ID>4</ID>
+   <Name>Right - Whites</Name>
+   <Universe>0</Universe>
+   <Address>89</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LaluceNatz</Manufacturer>
+   <Model>12 LED 3 in 1</Model>
+   <Mode>75 CH RGB</Mode>
+   <ID>5</ID>
+   <Name>Right - RGB</Name>
+   <Universe>0</Universe>
+   <Address>102</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Beams</Name>
+   <Size X="2" Y="12"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="3">0</Head>
+   <Head X="0" Y="1" Fixture="0">1</Head>
+   <Head X="1" Y="1" Fixture="3">1</Head>
+   <Head X="0" Y="2" Fixture="0">2</Head>
+   <Head X="1" Y="2" Fixture="3">2</Head>
+   <Head X="0" Y="3" Fixture="0">3</Head>
+   <Head X="1" Y="3" Fixture="3">3</Head>
+   <Head X="0" Y="4" Fixture="0">4</Head>
+   <Head X="1" Y="4" Fixture="3">4</Head>
+   <Head X="0" Y="5" Fixture="0">5</Head>
+   <Head X="1" Y="5" Fixture="3">5</Head>
+   <Head X="0" Y="6" Fixture="0">6</Head>
+   <Head X="1" Y="6" Fixture="3">6</Head>
+   <Head X="0" Y="7" Fixture="0">7</Head>
+   <Head X="1" Y="7" Fixture="3">7</Head>
+   <Head X="0" Y="8" Fixture="0">8</Head>
+   <Head X="1" Y="8" Fixture="3">8</Head>
+   <Head X="0" Y="9" Fixture="0">9</Head>
+   <Head X="1" Y="9" Fixture="3">9</Head>
+   <Head X="0" Y="10" Fixture="0">10</Head>
+   <Head X="1" Y="10" Fixture="3">10</Head>
+   <Head X="0" Y="11" Fixture="0">11</Head>
+   <Head X="1" Y="11" Fixture="3">11</Head>
+   <Head X="0" Y="12" Fixture="0">12</Head>
+   <Head X="1" Y="12" Fixture="3">12</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Whites</Name>
+   <Size X="2" Y="13"/>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+   <Head X="1" Y="0" Fixture="4">0</Head>
+   <Head X="0" Y="1" Fixture="1">1</Head>
+   <Head X="1" Y="1" Fixture="4">1</Head>
+   <Head X="0" Y="2" Fixture="1">2</Head>
+   <Head X="1" Y="2" Fixture="4">2</Head>
+   <Head X="0" Y="3" Fixture="1">3</Head>
+   <Head X="1" Y="3" Fixture="4">3</Head>
+   <Head X="0" Y="4" Fixture="1">4</Head>
+   <Head X="1" Y="4" Fixture="4">4</Head>
+   <Head X="0" Y="5" Fixture="1">5</Head>
+   <Head X="1" Y="5" Fixture="4">5</Head>
+   <Head X="0" Y="6" Fixture="1">6</Head>
+   <Head X="1" Y="6" Fixture="4">6</Head>
+   <Head X="0" Y="7" Fixture="1">7</Head>
+   <Head X="1" Y="7" Fixture="4">7</Head>
+   <Head X="0" Y="8" Fixture="1">8</Head>
+   <Head X="1" Y="8" Fixture="4">8</Head>
+   <Head X="0" Y="9" Fixture="1">9</Head>
+   <Head X="1" Y="9" Fixture="4">9</Head>
+   <Head X="0" Y="10" Fixture="1">10</Head>
+   <Head X="1" Y="10" Fixture="4">10</Head>
+   <Head X="0" Y="11" Fixture="1">11</Head>
+   <Head X="1" Y="11" Fixture="4">11</Head>
+   <Head X="0" Y="12" Fixture="1">12</Head>
+   <Head X="1" Y="12" Fixture="4">12</Head>
+   <Head X="0" Y="13" Fixture="1">13</Head>
+   <Head X="1" Y="13" Fixture="4">13</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>RGB</Name>
+   <Size X="2" Y="16"/>
+   <Head X="0" Y="0" Fixture="2">0</Head>
+   <Head X="1" Y="0" Fixture="5">0</Head>
+   <Head X="0" Y="1" Fixture="2">1</Head>
+   <Head X="1" Y="1" Fixture="5">1</Head>
+   <Head X="0" Y="2" Fixture="2">2</Head>
+   <Head X="1" Y="2" Fixture="5">2</Head>
+   <Head X="0" Y="3" Fixture="2">3</Head>
+   <Head X="1" Y="3" Fixture="5">3</Head>
+   <Head X="0" Y="4" Fixture="2">4</Head>
+   <Head X="1" Y="4" Fixture="5">4</Head>
+   <Head X="0" Y="5" Fixture="2">5</Head>
+   <Head X="1" Y="5" Fixture="5">5</Head>
+   <Head X="0" Y="6" Fixture="2">6</Head>
+   <Head X="1" Y="6" Fixture="5">6</Head>
+   <Head X="0" Y="7" Fixture="2">7</Head>
+   <Head X="1" Y="7" Fixture="5">7</Head>
+   <Head X="0" Y="8" Fixture="2">8</Head>
+   <Head X="1" Y="8" Fixture="5">8</Head>
+   <Head X="0" Y="9" Fixture="2">9</Head>
+   <Head X="1" Y="9" Fixture="5">9</Head>
+   <Head X="0" Y="10" Fixture="2">10</Head>
+   <Head X="1" Y="10" Fixture="5">10</Head>
+   <Head X="0" Y="11" Fixture="2">11</Head>
+   <Head X="1" Y="11" Fixture="5">11</Head>
+   <Head X="0" Y="12" Fixture="2">12</Head>
+   <Head X="1" Y="12" Fixture="5">12</Head>
+   <Head X="0" Y="13" Fixture="2">13</Head>
+   <Head X="1" Y="13" Fixture="5">13</Head>
+   <Head X="0" Y="14" Fixture="2">14</Head>
+   <Head X="1" Y="14" Fixture="5">14</Head>
+   <Head X="0" Y="15" Fixture="2">15</Head>
+   <Head X="1" Y="15" Fixture="5">15</Head>
+   <Head X="0" Y="16" Fixture="2">16</Head>
+   <Head X="1" Y="16" Fixture="5">16</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="Total Dimming" Value="0">0,0,3,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Total Strobe" Value="0">0,1,3,1</ChannelsGroup>
+  <Function ID="0" Type="RGBMatrix" Name="Fill from Center" Path="From Centers">
+   <Speed FadeIn="0" FadeOut="0" Duration="4"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <MonoColor>4278255382</MonoColor>
+   <EndColor>4278197503</EndColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>2</FixtureGroup>
+   <Property Name="orientation" Value="Vertical"/>
+  </Function>
+  <Function ID="1" Type="RGBMatrix" Name="Beams from Center" Path="From Centers">
+   <Speed FadeIn="0" FadeOut="236" Duration="145"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4294901502</MonoColor>
+   <EndColor>4278190080</EndColor>
+   <ControlMode>Amber</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+   <Property Name="orientation" Value="Vertical"/>
+  </Function>
+  <Function ID="2" Type="RGBMatrix" Name="Whites from Center" Path="From Centers">
+   <Speed FadeIn="0" FadeOut="248" Duration="59"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4294901502</MonoColor>
+   <EndColor>4278190080</EndColor>
+   <ControlMode>White</ControlMode>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="orientation" Value="Vertical"/>
+  </Function>
+  <Function ID="3" Type="Collection" Name="All from Center">
+   <Step Number="0">1</Step>
+   <Step Number="1">0</Step>
+   <Step Number="2">2</Step>
+  </Function>
+  <Function ID="5" Type="Chaser" Name="Strobe Slow">
+   <Speed FadeIn="0" FadeOut="0" Duration="116"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Strobe Slow - 1">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Strobe Slow - 2">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,250</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Strobe Slow - 3">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,233</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="Strobe Slow - 4">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,222</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Strobe Slow - 5">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,208</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Strobe Slow - 6">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,199</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Strobe Slow - 7">
+   <Speed FadeIn="0" FadeOut="85" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,192</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Collection" Name="Strobe Slow">
+   <Step Number="0">14</Step>
+   <Step Number="1">5</Step>
+  </Function>
+  <Function ID="14" Type="Scene" Name="All Beams">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255</FixtureVal>
+   <FixtureVal ID="3">2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="All Beams Off">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0</FixtureVal>
+   <FixtureVal ID="3">2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Caption="Beams from Center" ID="0" Icon="">
+    <WindowState Visible="False" X="0" Y="0" Width="160" Height="105"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="1"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="1" Channel="168"/>
+   </Button>
+   <Button Caption="Whites from Center" ID="1" Icon="">
+    <WindowState Visible="False" X="160" Y="0" Width="155" Height="105"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="2"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="1" Channel="168"/>
+   </Button>
+   <Button Caption="Strobe Slow" ID="2" Icon="">
+    <WindowState Visible="False" X="0" Y="130" Width="215" Height="110"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="13"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="1" Channel="176"/>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
