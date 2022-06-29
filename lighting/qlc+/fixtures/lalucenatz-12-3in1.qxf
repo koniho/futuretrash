@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.5</Version>
+  <Author>Alexander</Author>
+ </Creator>
+ <Manufacturer>LaluceNatz</Manufacturer>
+ <Model>12 LED 3 in 1</Model>
+ <Type>LED Bar (Beams)</Type>
+ <Channel Name="Total Dimming" Preset="IntensityMasterDimmer"/>
+ <Channel Name="All Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">solid</Capability>
+  <Capability Min="11" Max="255">strobe</Capability>
+ </Channel>
+ <Channel Name="All Red Dimming" Preset="IntensityRed"/>
+ <Channel Name="All Green Dimming" Preset="IntensityGreen"/>
+ <Channel Name="All Blue Dimming" Preset="IntensityBlue"/>
+ <Channel Name="All Yellow Dimming" Preset="IntensityYellow"/>
+ <Channel Name="All White Dimming" Preset="IntensityWhite"/>
+ <Channel Name="RGB Color Select">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="10">Closed Light</Capability>
+  <Capability Min="11" Max="45">Red</Capability>
+  <Capability Min="46" Max="80">Green</Capability>
+  <Capability Min="81" Max="115">Blue</Capability>
+  <Capability Min="116" Max="150">Yellow</Capability>
+  <Capability Min="151" Max="185">Purple</Capability>
+  <Capability Min="186" Max="220">Cyan</Capability>
+  <Capability Min="221" Max="255">White</Capability>
+ </Channel>
+ <Channel Name="RGB Effects">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="200">Effects On</Capability>
+  <Capability Min="201" Max="224">Voice Control Effect</Capability>
+  <Capability Min="225" Max="255">Voice Control DB</Capability>
+ </Channel>
+ <Channel Name="Yellow Effects">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="200">Effect On</Capability>
+  <Capability Min="201" Max="224">Voice Control Effect</Capability>
+  <Capability Min="225" Max="255">Voice Control DB</Capability>
+ </Channel>
+ <Channel Name="White Effects">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="200">White Effect</Capability>
+  <Capability Min="201" Max="224">Voice Control Effect</Capability>
+  <Capability Min="225" Max="255">Sound Sensitivity</Capability>
+ </Channel>
+ <Channel Name="5CH Effects">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="10">Closed Light</Capability>
+  <Capability Min="11" Max="200">35 Effects (Value 5)</Capability>
+  <Capability Min="201" Max="224">Voice Control Effect</Capability>
+  <Capability Min="225" Max="255">Sound Sensitivity</Capability>
+ </Channel>
+ <Channel Name="Effect Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Effect Speed</Capability>
+ </Channel>
+ <Channel Name="7 Combinations">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">7 Combinations (value 36)</Capability>
+ </Channel>
+ <Channel Name="Yellow Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">Closed Light</Capability>
+  <Capability Min="11" Max="255">Yellow Strobe</Capability>
+ </Channel>
+ <Channel Name="Yellow Effect Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Yellow Effect Speed</Capability>
+ </Channel>
+ <Channel Name="White Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">Closed Light</Capability>
+  <Capability Min="11" Max="255">White Strobe</Capability>
+ </Channel>
+ <Channel Name="White Effect Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="All RGB Dimming">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">RGB Dimming</Capability>
+ </Channel>
+ <Channel Name="RGB Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">Closed Light</Capability>
+  <Capability Min="11" Max="255">RGB Strobe</Capability>
+ </Channel>
+ <Channel Name="RGB Effect Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">RGB Effect Speed</Capability>
+ </Channel>
+ <Channel Name="Yellow Dimming 1" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 2" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 3" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 4" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 5" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 6" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 7" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 8" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 9" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 10" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 11" Preset="IntensityAmber"/>
+ <Channel Name="Yellow Dimming 12" Preset="IntensityAmber"/>
+ <Channel Name="White Dimming 1" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 2" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 3" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 4" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 5" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 6" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 7" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 8" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 9" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 10" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 11" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 12" Preset="IntensityWhite"/>
+ <Channel Name="White Dimming 13" Preset="IntensityWhite"/>
+ <Channel Name="RGB RED 1" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 2" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 3" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 4" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 5" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 6" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 7" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 8" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 9" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 10" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 11" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 12" Preset="IntensityRed"/>
+ <Channel Name="RGB GREEN 1" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 2" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 3" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 4" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 5" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 6" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 7" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 8" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 9" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 10" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 11" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 12" Preset="IntensityGreen"/>
+ <Channel Name="RGB BLUE 1" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 2" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 3" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 4" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 5" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 6" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 7" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 8" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 9" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 10" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 11" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 12" Preset="IntensityBlue"/>
+ <Channel Name="RGB RED 13" Preset="IntensityRed"/>
+ <Channel Name="RGB GREEN 13" Preset="IntensityGreen"/>
+ <Channel Name="RGB BLUE 13" Preset="IntensityBlue"/>
+ <Channel Name="RGB RED 14" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 15" Preset="IntensityRed"/>
+ <Channel Name="RGB RED 16" Preset="IntensityRed"/>
+ <Channel Name="RGB BLUE 14" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 15" Preset="IntensityBlue"/>
+ <Channel Name="RGB BLUE 16" Preset="IntensityBlue"/>
+ <Channel Name="RGB GREEN 14" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 15" Preset="IntensityGreen"/>
+ <Channel Name="RGB GREEN 16" Preset="IntensityGreen"/>
+ <Mode Name="12 CH">
+  <Channel Number="0">Total Dimming</Channel>
+  <Channel Number="1">All Strobe</Channel>
+  <Channel Number="2">All Red Dimming</Channel>
+  <Channel Number="3">All Green Dimming</Channel>
+  <Channel Number="4">All Blue Dimming</Channel>
+  <Channel Number="5">All Yellow Dimming</Channel>
+  <Channel Number="6">All White Dimming</Channel>
+  <Channel Number="7">RGB Color Select</Channel>
+  <Channel Number="8">RGB Effects</Channel>
+  <Channel Number="9">Yellow Effects</Channel>
+  <Channel Number="10">White Effects</Channel>
+  <Channel Number="11">Effect Speed</Channel>
+ </Mode>
+ <Mode Name="14 CH">
+  <Channel Number="0">Total Dimming</Channel>
+  <Channel Number="1">All Yellow Dimming</Channel>
+  <Channel Number="2">Yellow Strobe</Channel>
+  <Channel Number="3">Yellow Effects</Channel>
+  <Channel Number="4">Yellow Effect Speed</Channel>
+  <Channel Number="5">All White Dimming</Channel>
+  <Channel Number="6">White Strobe</Channel>
+  <Channel Number="7">White Effects</Channel>
+  <Channel Number="8" ActsOn="8">White Effect Speed</Channel>
+  <Channel Number="9">All RGB Dimming</Channel>
+  <Channel Number="10">RGB Strobe</Channel>
+  <Channel Number="11">RGB Color Select</Channel>
+  <Channel Number="12">RGB Effects</Channel>
+  <Channel Number="13">RGB Effect Speed</Channel>
+ </Mode>
+ <Mode Name="5 CH">
+  <Channel Number="0" ActsOn="2">Total Dimming</Channel>
+  <Channel Number="1">All Strobe</Channel>
+  <Channel Number="2">7 Combinations</Channel>
+  <Channel Number="3" ActsOn="0">5CH Effects</Channel>
+  <Channel Number="4">Effect Speed</Channel>
+ </Mode>
+ <Mode Name="75 CH">
+  <Channel Number="0">Total Dimming</Channel>
+  <Channel Number="1">All Strobe</Channel>
+  <Channel Number="2">Yellow Dimming 1</Channel>
+  <Channel Number="3">Yellow Dimming 2</Channel>
+  <Channel Number="4">Yellow Dimming 3</Channel>
+  <Channel Number="5">Yellow Dimming 4</Channel>
+  <Channel Number="6">Yellow Dimming 5</Channel>
+  <Channel Number="7">Yellow Dimming 6</Channel>
+  <Channel Number="8">Yellow Dimming 7</Channel>
+  <Channel Number="9">Yellow Dimming 8</Channel>
+  <Channel Number="10">Yellow Dimming 9</Channel>
+  <Channel Number="11">Yellow Dimming 10</Channel>
+  <Channel Number="12">Yellow Dimming 11</Channel>
+  <Channel Number="13">Yellow Dimming 12</Channel>
+  <Channel Number="14">White Dimming 1</Channel>
+  <Channel Number="15">White Dimming 2</Channel>
+  <Channel Number="16">White Dimming 3</Channel>
+  <Channel Number="17">White Dimming 4</Channel>
+  <Channel Number="18">White Dimming 5</Channel>
+  <Channel Number="19">White Dimming 6</Channel>
+  <Channel Number="20">White Dimming 7</Channel>
+  <Channel Number="21">White Dimming 8</Channel>
+  <Channel Number="22">White Dimming 9</Channel>
+  <Channel Number="23">White Dimming 10</Channel>
+  <Channel Number="24">White Dimming 11</Channel>
+  <Channel Number="25">White Dimming 12</Channel>
+  <Channel Number="26">White Dimming 13</Channel>
+  <Channel Number="27">RGB RED 1</Channel>
+  <Channel Number="28">RGB GREEN 1</Channel>
+  <Channel Number="29">RGB BLUE 1</Channel>
+  <Channel Number="30">RGB RED 2</Channel>
+  <Channel Number="31">RGB GREEN 2</Channel>
+  <Channel Number="32">RGB BLUE 2</Channel>
+  <Channel Number="33">RGB RED 3</Channel>
+  <Channel Number="34">RGB GREEN 3</Channel>
+  <Channel Number="35">RGB BLUE 3</Channel>
+  <Channel Number="36">RGB RED 4</Channel>
+  <Channel Number="37">RGB GREEN 4</Channel>
+  <Channel Number="38">RGB BLUE 4</Channel>
+  <Channel Number="39">RGB RED 5</Channel>
+  <Channel Number="40">RGB GREEN 5</Channel>
+  <Channel Number="41">RGB BLUE 5</Channel>
+  <Channel Number="42">RGB RED 6</Channel>
+  <Channel Number="43">RGB GREEN 6</Channel>
+  <Channel Number="44">RGB BLUE 6</Channel>
+  <Channel Number="45">RGB RED 7</Channel>
+  <Channel Number="46">RGB GREEN 7</Channel>
+  <Channel Number="47">RGB BLUE 7</Channel>
+  <Channel Number="48">RGB RED 8</Channel>
+  <Channel Number="49">RGB GREEN 8</Channel>
+  <Channel Number="50">RGB BLUE 8</Channel>
+  <Channel Number="51">RGB RED 9</Channel>
+  <Channel Number="52">RGB GREEN 9</Channel>
+  <Channel Number="53">RGB BLUE 9</Channel>
+  <Channel Number="54">RGB RED 10</Channel>
+  <Channel Number="55">RGB GREEN 10</Channel>
+  <Channel Number="56">RGB BLUE 10</Channel>
+  <Channel Number="57">RGB RED 11</Channel>
+  <Channel Number="58">RGB GREEN 11</Channel>
+  <Channel Number="59">RGB BLUE 11</Channel>
+  <Channel Number="60">RGB RED 12</Channel>
+  <Channel Number="61">RGB GREEN 12</Channel>
+  <Channel Number="62">RGB BLUE 12</Channel>
+  <Channel Number="63">RGB RED 13</Channel>
+  <Channel Number="64">RGB GREEN 13</Channel>
+  <Channel Number="65">RGB BLUE 13</Channel>
+  <Channel Number="66">RGB RED 14</Channel>
+  <Channel Number="67">RGB GREEN 14</Channel>
+  <Channel Number="68">RGB BLUE 14</Channel>
+  <Channel Number="69">RGB RED 15</Channel>
+  <Channel Number="70">RGB GREEN 15</Channel>
+  <Channel Number="71">RGB BLUE 15</Channel>
+  <Channel Number="72">RGB RED 16</Channel>
+  <Channel Number="73">RGB GREEN 16</Channel>
+  <Channel Number="74">RGB BLUE 16</Channel>
+  <Head>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+  </Head>
+  <Head>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+  </Head>
+  <Head>
+   <Channel>11</Channel>
+  </Head>
+  <Head>
+   <Channel>12</Channel>
+  </Head>
+  <Head>
+   <Channel>13</Channel>
+  </Head>
+  <Head>
+   <Channel>14</Channel>
+  </Head>
+  <Head>
+   <Channel>15</Channel>
+  </Head>
+  <Head>
+   <Channel>16</Channel>
+  </Head>
+  <Head>
+   <Channel>17</Channel>
+  </Head>
+  <Head>
+   <Channel>18</Channel>
+  </Head>
+  <Head>
+   <Channel>19</Channel>
+  </Head>
+  <Head>
+   <Channel>20</Channel>
+  </Head>
+  <Head>
+   <Channel>21</Channel>
+  </Head>
+  <Head>
+   <Channel>22</Channel>
+  </Head>
+  <Head>
+   <Channel>23</Channel>
+  </Head>
+  <Head>
+   <Channel>24</Channel>
+  </Head>
+  <Head>
+   <Channel>25</Channel>
+  </Head>
+  <Head>
+   <Channel>26</Channel>
+  </Head>
+  <Head>
+   <Channel>27</Channel>
+   <Channel>28</Channel>
+   <Channel>29</Channel>
+  </Head>
+  <Head>
+   <Channel>30</Channel>
+   <Channel>31</Channel>
+   <Channel>32</Channel>
+  </Head>
+  <Head>
+   <Channel>33</Channel>
+   <Channel>34</Channel>
+   <Channel>35</Channel>
+  </Head>
+  <Head>
+   <Channel>36</Channel>
+   <Channel>37</Channel>
+   <Channel>38</Channel>
+  </Head>
+  <Head>
+   <Channel>39</Channel>
+   <Channel>40</Channel>
+   <Channel>41</Channel>
+  </Head>
+  <Head>
+   <Channel>42</Channel>
+   <Channel>43</Channel>
+   <Channel>44</Channel>
+  </Head>
+  <Head>
+   <Channel>45</Channel>
+   <Channel>46</Channel>
+   <Channel>47</Channel>
+  </Head>
+  <Head>
+   <Channel>48</Channel>
+   <Channel>49</Channel>
+   <Channel>50</Channel>
+  </Head>
+  <Head>
+   <Channel>51</Channel>
+   <Channel>52</Channel>
+   <Channel>53</Channel>
+  </Head>
+  <Head>
+   <Channel>54</Channel>
+   <Channel>55</Channel>
+   <Channel>56</Channel>
+  </Head>
+  <Head>
+   <Channel>57</Channel>
+   <Channel>58</Channel>
+   <Channel>59</Channel>
+  </Head>
+  <Head>
+   <Channel>60</Channel>
+   <Channel>61</Channel>
+   <Channel>62</Channel>
+  </Head>
+  <Head>
+   <Channel>63</Channel>
+   <Channel>64</Channel>
+   <Channel>65</Channel>
+  </Head>
+  <Head>
+   <Channel>66</Channel>
+   <Channel>67</Channel>
+   <Channel>68</Channel>
+  </Head>
+  <Head>
+   <Channel>69</Channel>
+   <Channel>71</Channel>
+   <Channel>70</Channel>
+  </Head>
+  <Head>
+   <Channel>72</Channel>
+   <Channel>73</Channel>
+   <Channel>74</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="75 CH BEAMS">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Layout Width="12" Height="1"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Total Dimming</Channel>
+  <Channel Number="1">All Strobe</Channel>
+  <Channel Number="2">Yellow Dimming 1</Channel>
+  <Channel Number="3">Yellow Dimming 2</Channel>
+  <Channel Number="4">Yellow Dimming 3</Channel>
+  <Channel Number="5">Yellow Dimming 4</Channel>
+  <Channel Number="6">Yellow Dimming 5</Channel>
+  <Channel Number="7">Yellow Dimming 6</Channel>
+  <Channel Number="8">Yellow Dimming 7</Channel>
+  <Channel Number="9">Yellow Dimming 8</Channel>
+  <Channel Number="10">Yellow Dimming 9</Channel>
+  <Channel Number="11">Yellow Dimming 10</Channel>
+  <Channel Number="12">Yellow Dimming 11</Channel>
+  <Channel Number="13">Yellow Dimming 12</Channel>
+  <Head>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+  </Head>
+  <Head>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+  </Head>
+  <Head>
+   <Channel>11</Channel>
+  </Head>
+  <Head>
+   <Channel>12</Channel>
+  </Head>
+  <Head>
+   <Channel>13</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="75 CH RGB">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Layout Width="16" Height="1"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">RGB RED 1</Channel>
+  <Channel Number="1">RGB GREEN 1</Channel>
+  <Channel Number="2">RGB BLUE 1</Channel>
+  <Channel Number="3">RGB RED 2</Channel>
+  <Channel Number="4">RGB GREEN 2</Channel>
+  <Channel Number="5">RGB BLUE 2</Channel>
+  <Channel Number="6">RGB RED 3</Channel>
+  <Channel Number="7">RGB GREEN 3</Channel>
+  <Channel Number="8">RGB BLUE 3</Channel>
+  <Channel Number="9">RGB RED 4</Channel>
+  <Channel Number="10">RGB GREEN 4</Channel>
+  <Channel Number="11">RGB BLUE 4</Channel>
+  <Channel Number="12">RGB RED 5</Channel>
+  <Channel Number="13">RGB GREEN 5</Channel>
+  <Channel Number="14">RGB BLUE 5</Channel>
+  <Channel Number="15">RGB RED 6</Channel>
+  <Channel Number="16">RGB GREEN 6</Channel>
+  <Channel Number="17">RGB BLUE 6</Channel>
+  <Channel Number="18">RGB RED 7</Channel>
+  <Channel Number="19">RGB GREEN 7</Channel>
+  <Channel Number="20">RGB BLUE 7</Channel>
+  <Channel Number="21">RGB RED 8</Channel>
+  <Channel Number="22">RGB GREEN 8</Channel>
+  <Channel Number="23">RGB BLUE 8</Channel>
+  <Channel Number="24">RGB RED 9</Channel>
+  <Channel Number="25">RGB GREEN 9</Channel>
+  <Channel Number="26">RGB BLUE 9</Channel>
+  <Channel Number="27">RGB RED 10</Channel>
+  <Channel Number="28">RGB GREEN 10</Channel>
+  <Channel Number="29">RGB BLUE 10</Channel>
+  <Channel Number="30">RGB RED 11</Channel>
+  <Channel Number="31">RGB GREEN 11</Channel>
+  <Channel Number="32">RGB BLUE 11</Channel>
+  <Channel Number="33">RGB RED 12</Channel>
+  <Channel Number="34">RGB GREEN 12</Channel>
+  <Channel Number="35">RGB BLUE 12</Channel>
+  <Channel Number="36">RGB RED 13</Channel>
+  <Channel Number="37">RGB GREEN 13</Channel>
+  <Channel Number="38">RGB BLUE 13</Channel>
+  <Channel Number="39">RGB RED 14</Channel>
+  <Channel Number="40">RGB GREEN 14</Channel>
+  <Channel Number="41">RGB BLUE 14</Channel>
+  <Channel Number="42">RGB RED 15</Channel>
+  <Channel Number="43">RGB GREEN 15</Channel>
+  <Channel Number="44">RGB BLUE 15</Channel>
+  <Channel Number="45">RGB RED 16</Channel>
+  <Channel Number="46">RGB GREEN 16</Channel>
+  <Channel Number="47">RGB BLUE 16</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+  </Head>
+  <Head>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+  </Head>
+  <Head>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+  </Head>
+  <Head>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+  </Head>
+  <Head>
+   <Channel>18</Channel>
+   <Channel>19</Channel>
+   <Channel>20</Channel>
+  </Head>
+  <Head>
+   <Channel>22</Channel>
+   <Channel>21</Channel>
+   <Channel>23</Channel>
+  </Head>
+  <Head>
+   <Channel>24</Channel>
+   <Channel>25</Channel>
+   <Channel>26</Channel>
+  </Head>
+  <Head>
+   <Channel>27</Channel>
+   <Channel>28</Channel>
+   <Channel>29</Channel>
+  </Head>
+  <Head>
+   <Channel>30</Channel>
+   <Channel>31</Channel>
+   <Channel>32</Channel>
+  </Head>
+  <Head>
+   <Channel>33</Channel>
+   <Channel>34</Channel>
+   <Channel>35</Channel>
+  </Head>
+  <Head>
+   <Channel>36</Channel>
+   <Channel>37</Channel>
+   <Channel>38</Channel>
+  </Head>
+  <Head>
+   <Channel>39</Channel>
+   <Channel>40</Channel>
+   <Channel>41</Channel>
+  </Head>
+  <Head>
+   <Channel>42</Channel>
+   <Channel>43</Channel>
+   <Channel>44</Channel>
+  </Head>
+  <Head>
+   <Channel>45</Channel>
+   <Channel>46</Channel>
+   <Channel>47</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="75 CH Whites">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Layout Width="13" Height="1"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">White Dimming 1</Channel>
+  <Channel Number="1">White Dimming 2</Channel>
+  <Channel Number="2">White Dimming 3</Channel>
+  <Channel Number="3">White Dimming 4</Channel>
+  <Channel Number="4">White Dimming 5</Channel>
+  <Channel Number="5">White Dimming 6</Channel>
+  <Channel Number="6">White Dimming 7</Channel>
+  <Channel Number="7">White Dimming 8</Channel>
+  <Channel Number="8">White Dimming 9</Channel>
+  <Channel Number="9">White Dimming 10</Channel>
+  <Channel Number="10">White Dimming 11</Channel>
+  <Channel Number="11">White Dimming 12</Channel>
+  <Channel Number="12">White Dimming 13</Channel>
+  <Head>
+   <Channel>0</Channel>
+  </Head>
+  <Head>
+   <Channel>1</Channel>
+  </Head>
+  <Head>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+  </Head>
+  <Head>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+  </Head>
+  <Head>
+   <Channel>11</Channel>
+  </Head>
+  <Head>
+   <Channel>12</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
