@@ -17,7 +17,7 @@ dtx[drum brain] -- midi --- ai
 lb1 --- dmxctrl
 lb1(lightbar left) --- lb2(lightbar right)
 
-subgraph PC (macbook)
+subgraph PC
   ableton(ableton) -- IAC midi --> lightctrl(qlc+)
 end
 ```
