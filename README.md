@@ -44,4 +44,6 @@ subgraph PC
 end
 ```
 
+# Ideation
 
+Show cues and ideas captured in Google Drive [here](https://docs.google.com/document/d/1rj-D8MbWqp3vfqb_5moK8rI9H3gpxN6OTVasECI0CgI/edit?usp=sharing)
