@@ -7,17 +7,19 @@ Navation Launchpad as MIDI controller for vocal effects, lights and
 
 
 ```mermaid
-gitGraph
-  commit
-  commit
-  branch develop
-  checkout develop
-  commit
-  commit
-  checkout main
-  merge develop
-  commit
-  commit
+flowchart LR
+
+dmxctrl[DMX USB] --- lightctrl
+launchpad --- ableton
+ai[audio interface] --- ableton
+dtx[drum brain] -- midi --- ai
+
+lb1 --- dmxctrl
+lb1(lightbar left) --- lb2(lightbar right)
+
+subgraph PC (macbook)
+  ableton(ableton) -- IAC midi --> lightctrl(qlc+)
+end
 ```
 
 
