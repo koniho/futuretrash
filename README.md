@@ -44,6 +44,18 @@ subgraph PC
 end
 ```
 
+### Drum Triggers
+
+The following are the connections used for triggers. Choosing Tom inputs because
+maybe the inputs do not have multi-zone capability? 
+
+| Input        | Connect to   |
+| ------------ | ------------ |
+| Tom 1        | Kick Trigger |
+| Tom 2        | Tambourine   |
+
+
+
 # Ideation
 
 Show cues and ideas captured in Google Drive [here](https://docs.google.com/document/d/1rj-D8MbWqp3vfqb_5moK8rI9H3gpxN6OTVasECI0CgI/edit?usp=sharing)
